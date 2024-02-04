@@ -1,0 +1,43 @@
+name: celebrare
+description: "a replica of assignment app"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.0.7
+  widget_mask: ^1.0.0+0
+  crop_image: ^1.0.11
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Diphylleia
+      fonts:
+        - asset: fonts/Diphylleia-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
